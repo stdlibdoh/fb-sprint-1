@@ -20,6 +20,8 @@ By the end of this session, students will:
 
 ### Reading
 
+In this section, we'll learn what Git is and how you'll be using it to complete the rest of these sprints in this project.
+
 * [Understanding the Git Workflow](https://guides.github.com/introduction/flow/)
 
     * This explain what the Git Workflow is, and what your workflow will be once you start fully taking advantage of Git to work collaboratively in a team 
@@ -38,6 +40,31 @@ By the end of this session, students will:
 
 * All instructions for activities will be inside the corresponding folder, in the README.md file.
 
+### Branching, committing and pushing in Git
+
+* Start with forking the original repository to your own account, from GitHub
+
+* Login to your workspace instance
+
+* Using the built-in terminal, clone the repo you just cloned, to your workspace
+
+* Once you're done editing the skeleton code, create a new branch, named
+
+```
+your_username + day_of_activity, i.e. stdlibdoh-day1
+```
+
+* Add, commit and push to the newly created branch
+
+
+### GitHub and Pull Requests
+
+* Once the previous steps are done, go on GitHub and open a pull request against the original repository
+
+* Await for a reviewer to approve and merge your pull request
+
+* Get bonus points!
+
 ### Activities
 
 You can find each activity in its own separate folder in the repo.
@@ -52,12 +79,12 @@ You can find each activity in its own separate folder in the repo.
 
 * Start by forking the repository and adding it to your account. 
 
+* Clo
+
 * Create a new folder, inside /answers, with your username, i.e. /fb-test-1/answers/stdlibdoh
 
 * Once you're done with the activities, create a new branch in your forked repository, named:
 
-```
-your_username + day_of_activity, i.e. stdlibdoh-day1
-``` 
+
 
 * Add and commit to this branch and submit a pull request against the master branch.
