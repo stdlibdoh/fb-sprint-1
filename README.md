@@ -15,7 +15,9 @@ By the end of this session, students will:
 ### Assessment
 
 1. Students will clone a repository, branch, create a new commit and push to a remote repository.
+
 2. Students will open a pull request in GitHub
+
 3. Students will successfully complete 3 coding challenges
 
 ### Reading
@@ -42,28 +44,29 @@ In this section, we'll learn what Git is and how you'll be using it to complete 
 
 ### Branching, committing and pushing in Git
 
-* Start with forking the original repository to your own account, from GitHub
+* Branching is essentially creating a copy of your current repository. When you branch, you allow yourself the ability to add or edit features, without touching the main codebase and accidentally breaking your main project.
 
-* Login to your workspace instance
+    * [What a branch is](https://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is)
 
-* Using the built-in terminal, clone the repo you just cloned, to your workspace
+    * [Documentation](https://git-scm.com/docs/git-branch)
 
-* Once you're done editing the skeleton code, create a new branch, named
+* Committing is adding your changed files and creating a new version of your codebase. You usually commit with a message so both you and other developers know what has changed without looking at the entire codebase.
 
-```
-your_username + day_of_activity, i.e. stdlibdoh-day1
-```
+    * [What is committing](https://git-scm.com/book/en/v1/Git-Basics-Recording-Changes-to-the-Repository#Committing-Your-Changes)
 
-* Add, commit and push to the newly created branch
+    * [Documentation](https://git-scm.com/docs/git-commit)
 
+* Pushing is adding the committed files to your existing codebase. You can push to the master branch, or where the most recent build of your project lives, or to a branch, to test or edit features.
+
+    * [What is Pushing](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+
+    * [Documentation](https://git-scm.com/docs/git-push)
 
 ### GitHub and Pull Requests
 
-* Once the previous steps are done, go on GitHub and open a pull request against the original repository
+* GitHub allows you to open Pull Requests against a repository, either your own or someone else's. This is essentially a way to ask for other developers to review and either approve or request changes to your commit. This process happens through the GitHub platform.
 
-* Await for a reviewer to approve and merge your pull request
-
-* Get bonus points!
+    * [More on Pull Requests](https://help.github.com/articles/about-pull-requests/)
 
 ### Activities
 
@@ -85,6 +88,26 @@ You can find each activity in its own separate folder in the repo.
 
 * Once you're done with the activities, create a new branch in your forked repository, named:
 
-
-
 * Add and commit to this branch and submit a pull request against the master branch.
+
+### Your Tasks
+
+* Start with forking the original repository to your own account, from GitHub
+
+* Login to your workspace instance
+
+* Using the built-in terminal, clone the repo you just cloned, to your workspace
+
+* Once you're done editing the skeleton code, create a new branch, named
+
+```
+your_username + day_of_activity, i.e. stdlibdoh-day1
+```
+
+* Add, commit and push to the newly created branch
+
+* Once the previous steps are done, go on GitHub and open a pull request against the original repository
+
+* Await for a reviewer to approve and merge your pull request
+
+* Get bonus points!
